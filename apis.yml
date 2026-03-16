@@ -1,13 +1,28 @@
+aid: logstash
 name: Logstash
-description: Open source server-side data processing pipeline that ingests data from
-  multiple sources, transforms it, and sends it to a specified destination
-url: https://www.elastic.co/logstash
+description: >-
+  Open source server-side data processing pipeline that ingests data from
+  multiple sources, transforms it, and sends it to a specified destination.
+  Part of the Elastic Stack.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Data Processing
-- ETL
-- Log Management
-- Pipeline
-created: '2025'
-modified: '2025'
+  - Data Processing
+  - ETL
+  - Log Management
+  - Pipeline
+url: https://raw.githubusercontent.com/api-evangelist/logstash/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+common:
+  - url: https://www.elastic.co/logstash
+    type: Website
+  - url: https://www.elastic.co/guide/en/logstash/current/index.html
+    type: Documentation
+  - url: https://github.com/elastic/logstash
+    type: GitHubOrganization
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
