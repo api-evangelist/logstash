@@ -39,6 +39,10 @@ common:
     type: Documentation
   - url: https://github.com/elastic/logstash
     type: GitHubOrganization
+  - type: Integrations
+    url: https://www.elastic.co/integrations
+integrations:
+  - name: Become a partner
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
