@@ -30,7 +30,7 @@ apis:
     properties:
       - type: Documentation
         url: https://www.elastic.co/guide/en/logstash/current/monitoring-logstash.html
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/elastic/logstash
 common:
   - url: https://www.elastic.co/logstash
