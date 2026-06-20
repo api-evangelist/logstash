@@ -5,7 +5,7 @@ description: >-
   multiple sources, transforms it, and sends it to a specified destination.
   Part of the Elastic Stack.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Data Processing
   - ETL
