@@ -33,6 +33,10 @@ apis:
       - type: GitHubRepository
         url: https://github.com/elastic/logstash
 common:
+  - type: TrustCenter
+    url: security/logstash-trust-center.yml
+  - type: DomainSecurity
+    url: security/logstash-domain-security.yml
   - url: https://www.elastic.co/logstash
     type: Website
   - url: https://www.elastic.co/guide/en/logstash/current/index.html
@@ -41,6 +45,8 @@ common:
     type: GitHubOrganization
   - type: Integrations
     url: https://www.elastic.co/integrations
+  - url: https://www.elastic.co/blog/feed
+    type: Blog
 integrations:
   - name: Become a partner
 maintainers:
