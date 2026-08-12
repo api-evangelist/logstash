@@ -45,6 +45,12 @@ apis:
       - type: GitHubRepository
         url: https://github.com/elastic/logstash
 common:
+  - type: IssueTracker
+    url: https://github.com/elastic/logstash/issues
+  - type: Releases
+    url: https://github.com/elastic/logstash/releases
+  - type: ContributionGuide
+    url: https://github.com/elastic/logstash/blob/main/CONTRIBUTING.md
   - type: TrustCenter
     url: security/logstash-trust-center.yml
   - type: DomainSecurity
