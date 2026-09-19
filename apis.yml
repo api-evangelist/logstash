@@ -33,6 +33,11 @@ tags:
   - Data Processing
   - ETL
   - Log Management
+  - Pipelines
+tags_raw:
+  - Data Processing
+  - ETL
+  - Log Management
   - Pipeline
 url: https://raw.githubusercontent.com/api-evangelist/logstash/refs/heads/main/apis.yml
 created: '2025-01-01'
