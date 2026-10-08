@@ -65,6 +65,12 @@ apis:
       - type: GitHubRepository
         url: https://github.com/elastic/logstash
 common:
+  - type: Plans
+    url: plans/logstash-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/logstash-rate-limits.yml
+  - type: FinOps
+    url: finops/logstash-finops.yml
   - type: IssueTracker
     url: https://github.com/elastic/logstash/issues
   - type: Releases
