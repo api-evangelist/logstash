@@ -1,4 +1,4 @@
-# Logstash (logstash)
+# Logstash
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,48 +66,103 @@
 
 Open source server-side data processing pipeline that ingests data from multiple sources, transforms it, and sends it to a specified destination. Part of the Elastic Stack.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/logstash/refs/heads/main/apis.yml)
+**Areas:** Data Processing · ETL · Log Management · Pipelines
 
-## Scope
+## Logstash on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Logstash is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/logstash/](https://apis.io/providers/logstash/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (1)
 
- - Data Processing, ETL, Log Management, Pipeline
+- [Logstash Monitoring API](https://apis.io/apis/logstash/logstash-monitoring-api/) — The Logstash Monitoring API exposes node info, plugin info, node stats, hot threads, and a health report endpoint over HTTP on port 9600 by default. There…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (2)
 
-### Logstash Monitoring API
+Authentication, trust centre, and vulnerability disclosure.
 
-The Logstash Monitoring API exposes node info, plugin info, node stats, hot threads, and a health report endpoint over HTTP on port 9600 by default. There is no published OpenAPI specification; see Elastic's monitoring documentation for endpoint details.
+- [Logstash Domain Security](https://apis.io/security/logstash/logstash-domain-security/)
+- [Logstash Trust Center](https://apis.io/security/logstash/logstash-trust-center/)
 
-**Human URL:** [https://www.elastic.co/guide/en/logstash/current/monitoring-logstash.html](https://www.elastic.co/guide/en/logstash/current/monitoring-logstash.html)
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - Monitoring, Operational
+- [Logstash Plans Pricing](https://apis.io/plans/logstash/logstash-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://www.elastic.co/guide/en/logstash/current/monitoring-logstash.html)
-- [GitHub Repository](https://github.com/elastic/logstash)
+Published request limits.
 
-## Common Properties
+- [Logstash Rate Limits](https://apis.io/rate-limits/logstash/logstash-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Logstash Finops](https://apis.io/finops/logstash/logstash-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.elastic.co/logstash)
 - [Documentation](https://www.elastic.co/guide/en/logstash/current/index.html)
-- [GitHubOrganization](https://github.com/elastic/logstash)
+- [Blog](https://www.elastic.co/blog/feed)
+- [GitHub](https://github.com/elastic/logstash)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 12.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/logstash/](https://apis.io/providers/logstash/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Logstash: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/logstash/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
